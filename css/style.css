@@ -1,0 +1,93 @@
+body {
+  background-color: #FEFEFF;
+  color: rgb(12,20,120);
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+nav {
+  background-color: rgba(12,20,120,.85);
+  float: left;
+  position: fixed;
+  width: 100%;
+
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+h1{
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 3.5rem;
+  color: #FFA07A;
+
+}
+h3 {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+p {
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+p .author{
+   font-style: bold;
+   font-weight: 700;
+ }
+
+a {
+  color: #FFA07A;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+h4 {
+  font-weight: 900;
+}
